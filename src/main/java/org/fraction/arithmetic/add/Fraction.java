@@ -1,12 +1,12 @@
 package org.fraction.arithmetic.add;
 
 /**
- * Hello world!
+ * Fraction to add two fraction in there lowest form
  *
  */
 public class Fraction{
 
-    public int add(int numerator, int denominator) {
-        return numerator+denominator;
+    public int add(int fraction1, int fraction2) {
+        return fraction1+fraction2;
     }
 }
