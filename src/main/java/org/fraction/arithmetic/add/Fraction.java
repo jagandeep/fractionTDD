@@ -1,4 +1,4 @@
-package org.fraction.arithmetic;
+package org.fraction.arithmetic.add;
 
 /**
  * Hello world!
