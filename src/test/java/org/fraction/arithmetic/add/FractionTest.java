@@ -21,4 +21,11 @@ public class FractionTest{
         Fraction fraction = new Fraction();
         assertEquals(1, fraction.add(0,1));
     }
+
+    @Test
+    public void shouldAddAnIntegerAndAnInteger() {
+        Fraction fraction = new Fraction();
+        assertEquals(2
+                , fraction.add(1,1));
+    }
 }
