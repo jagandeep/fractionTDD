@@ -15,4 +15,10 @@ public class FractionTest{
         Fraction fraction = new Fraction();
         assertEquals(0, fraction.add(0,0));
     }
+
+    @Test
+    public void shouldAddZeroAndAnInteger() {
+        Fraction fraction = new Fraction();
+        assertEquals(1, fraction.add(0,1));
+    }
 }
